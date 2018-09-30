@@ -7,14 +7,6 @@ import store from './store'
 
 import 'vuetify/dist/vuetify.min.css'
 import 'vue-material-design-icons/styles.css'
-import VueNativeSock from 'vue-native-websocket'
-
-Vue.use(VueNativeSock, `ws://${document.location.hostname}:8000/ws`, {
-  store: store,
-  format: 'json',
-  reconnection: true, // (Boolean) whether to reconnect automatically (false)
-  reconnectionDelay: 3000 // (Number) how long to initially wait before attempting a new (1000)
-})
 
 Vue.config.productionTip = false
 

@@ -3,22 +3,8 @@
         <h1 class="display-3">{{ title }}</h1>
         <v-layout row wrap>
             <v-flex lg6>
-                <videostream stream-file="high_quality.mjpg">
+                <videostream stream-file="feed.mjpg">
                 </videostream>
-            </v-flex>
-            <v-flex lg6>
-                <v-layout row wrap>
-                    <v-flex md7>
-                        <videostream
-                          stream-file="low_quality1.mjpg">
-                        </videostream>
-                    </v-flex>
-                    <v-flex md7>
-                        <videostream
-                          stream-file="low_quality2.mjpg">
-                        </videostream>
-                    </v-flex>
-                </v-layout>
             </v-flex>
         </v-layout>
     </v-container>
@@ -34,7 +20,7 @@ export default {
   },
   data () {
     return {
-      title: 'Video Feed'
+      title: 'Livestream'
     }
   }
 }
