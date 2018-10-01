@@ -2,18 +2,18 @@
 <v-container>
 <v-layout>
   <v-flex>
-    <v-expansion-panel popout dark>
+    <v-expansion-panel popout dark >
       <v-expansion-panel-content
         v-for="game in games"
         :key="game.name"
       >
         <div slot="header">{{game.participantDescription}}</div>
-        <v-card>
+        <v-card class="elevation-10">
           <v-card-title v-if="!game.hidden" class="title">{{game.name}}</v-card-title>
           <v-card-text class="subheading">Prize - {{game.prize}}</v-card-text>
           <v-card-text v-if="!game.hidden">{{game.description}}</v-card-text>
         </v-card>
-      </v-expansion-panel-content>
+    </v-expansion-panel-content>
     </v-expansion-panel>
   </v-flex>
 </v-layout>
@@ -141,8 +141,8 @@ export default {
           prize: 'Sriracha',
           participantDescription: 'Someone good with gifts...',
           description: `
-            People with mayo vs people who don’t have mayo.
-            People without mayo get 3 minutes to duct tape a shoe box shut.
+            The people with mayo face off against the people who don’t have mayo.
+            People without mayo get 3 minutes to duct tape a shoe box shut, but blindfolded.
             If the people with mayo can open the box within within 3 minutes they win
           `
         },
@@ -152,7 +152,7 @@ export default {
           prize: 'Shrimp',
           participantDescription: 'Someone who asks a lot of questions...',
           description: `
-            Enoch and Byron will have an object in mind, participants can publically yes or no questions for all other participants to hear the answer to.
+            Enoch and Byron will have an object in mind, participants can publically ask yes or no questions for all other participants to hear the answer to.
             Guesses can be texted to Byron or Enoch.
             2 minutes after the first person gets it, whoever hasn’t gotten it loses.
           `
@@ -163,7 +163,8 @@ export default {
           prize: 'Mango',
           participantDescription: 'Someone with good finances...',
           description: `
-            Each competitor is given $1000 and must bid for celebrities. There are 3 ways to score points:
+            Each competitor is given $1000 and must bid for celebrities.
+             woulThere are 3 ways to score points:
             Each celebrity is worth 2 points each, except for black celebrities which are worth 4 points each.
             Points are awarded to the square of the number of celebrities which are of the same colour.
             For example 3 yellow individuals are an additional 9 points.

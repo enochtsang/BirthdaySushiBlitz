@@ -69,6 +69,7 @@ export default {
       `,
       rules_3: `
         Enoch and Byron go around to each team and judge the sushi.
+        Every recipe should have at least 4 of its kind.
         Every roll can be judged as not done (no points), done poorly (half points), or done well (full points).
       `
     }
