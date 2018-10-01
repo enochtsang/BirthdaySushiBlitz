@@ -1,5 +1,5 @@
 <template>
-  <v-card raised class='team-card'>
+  <v-card raised class='team-card elevation-10' dark>
     <v-card-title primary-title>
       <h4 class="headline">{{team.name}}</h4>
     </v-card-title>

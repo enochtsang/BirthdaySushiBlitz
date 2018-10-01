@@ -1,10 +1,10 @@
 <template>
-  <v-app dark>
-    <v-toolbar>
+  <v-app>
+    <v-toolbar dark>
       <v-toolbar-title>Birthday Sushi Blitz</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
-    <v-tabs fixed-tabs height=70>
+    <v-tabs fixed-tabs height=70 slider-color="black" color="orange">
       <v-tab ripple :to="{name:'Home'}" >
         Home
       </v-tab>
@@ -18,7 +18,7 @@
         Judging
       </v-tab>
     </v-tabs>
-    <router-view></router-view>
+    <router-view class="content"></router-view>
   </v-app>
 </template>
 
@@ -26,4 +26,8 @@
 </script>
 
 <style scoped>
+.content {
+  max-width: 80rem;
+  margin: auto;
+}
 </style>

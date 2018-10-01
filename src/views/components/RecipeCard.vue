@@ -1,5 +1,5 @@
 <template>
-  <v-card raised class='recipe-card'>
+  <v-card raised dark class='recipe-card elevation-10'>
     <v-card-title primary-title>
       <h4 class="headline">{{recipe.name}}</h4>
       <v-spacer></v-spacer>
@@ -9,8 +9,8 @@
     <v-card-content class="content">
       <img :src="recipe.picture" class="thumbnail"/>
       <ul class="ingredients">
-        <li v-for="ingredient in recipe.ingredients">
-          - {{ingredient}}
+        <li v-for="ingredient in recipe.ingredients" v-bind:key="ingredient">
+          {{ingredient}}
         </li>
       </ul>
     </v-card-content>

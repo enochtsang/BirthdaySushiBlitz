@@ -9,7 +9,7 @@
     class="dancing_sushi"
   />
 
-  <h1>Rules</h1>
+  <h1>Sushi Blitz</h1>
   <p>{{rules_summary}}</p>
   <h2>Stage 1 - Cooking and Gathering</h2>
   <p>{{rules_1}}</p>
@@ -45,7 +45,9 @@ export default {
       intro: `
         We're both so happy that you were all able to make it out.
         We hope you'll all like the game and enjoy making sushi with us.
-        Everyone here is an A+ person so get to know other people!
+        Everyone here is an A+ person so get to know other people.
+        If you need to charge your phone, let us know and we'll hook you up.
+        The winners will receive the mystery box and the losers will be subject to punishment!
         `,
       rules_summary: `
         There are 3 stages to the game, in the first stage people compete in mini-games for ingredients to make sushi.
@@ -57,7 +59,7 @@ export default {
         When a game is announced, you have 1 minute to send a representative to the playing area to compete.
         Games can have more than one winner, so the odds aren't terrible.
         A hint to what skills would be good in the game will also be announced, so pick strategically.
-        But be warned, the same person cannot be sent up twice in a row!
+        Be warned, the same person cannot be sent up twice in a row!
       `,
       rules_2: `
         Each team can challenge another team for any unused ingredients they have.
@@ -68,57 +70,12 @@ export default {
       rules_3: `
         Enoch and Byron go around to each team and judge the sushi.
         Every roll can be judged as not done (no points), done poorly (half points), or done well (full points).
-      `,
-      teams: [
-        {
-          name: 'Team Jelly',
-          members: [
-            'Patrick Lagasca',
-            'Emily Tse',
-            'Bill Luu'
-          ]
-        },
-        {
-          name: 'Team Boxer',
-          members: [
-            'Jeff Martens',
-            'Adnan Husain',
-            'Alisa Cheung'
-          ]
-        },
-        {
-          name: 'Team Demon',
-          members: [
-            'Sarah Lam',
-            'Jane Thiem',
-            'Helen Du'
-          ]
-        },
-        {
-          name: 'Team Ninja',
-          members: [
-            'Henry Tran',
-            'Tai Lai',
-            'Ginelle Alontave'
-          ]
-        },
-        {
-          name: 'Team Kirito',
-          members: [
-            'Deanna Ip',
-            'Estee Lee',
-            'Gordon Cheung'
-          ]
-        },
-        {
-          name: 'Team Asuna',
-          members: [
-            'Johnny Wong',
-            'Kimberly Oliveros',
-            'Mike Thiem'
-          ]
-        }
-      ]
+      `
+    }
+  },
+  computed: {
+    teams () {
+      return this.$store.state.teams
     }
   }
 }
@@ -129,15 +86,12 @@ export default {
 .content {
   display: flex;
   flex-direction: column;
-  max-width: 80rem;
-}
-
-img {
-  box-shadow: 5px 5px 15px black;
 }
 
 .dancing_sushi {
+  box-shadow: 5px 5px 15px grey;
   margin: auto;
+  margin-bottom: 1.5rem;
   height: 15rem;
 }
 
