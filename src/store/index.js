@@ -190,7 +190,7 @@ const store = new Vuex.Store({
           'Sarah Lam',
           'Claire Zhang',
           'Andy Wu Wu',
-          'Gordo Cheung'
+          'Benny Liu',
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 1 },
@@ -244,9 +244,9 @@ const store = new Vuex.Store({
       {
         name: 'Team Demon',
         members: [
-          'Benny Liu',
+          'Kathy Chan',
           'Jacky Chiu',
-          'Daisy Dukes Ao'
+          'Gordo Cheung'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 0 },
@@ -274,7 +274,6 @@ const store = new Vuex.Store({
         members: [
           'Jack Fang',
           'Dana Zhao',
-          'Kathy Chan',
           'Adam Mehina'
         ],
         scores: [
