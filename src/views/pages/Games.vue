@@ -142,8 +142,8 @@ export default {
           participantDescription: 'Someone good with gifts...',
           description: `
             The people with mayo face off against the people who don’t have mayo.
-            People without mayo get 3 minutes to duct tape a shoe box shut, but blindfolded.
-            If the people with mayo can open the box within within 3 minutes they win
+            People without mayo get 30 seconds to duct tape a shoe box shut, but blindfolded.
+            If the people with mayo can open the box within within 1 minute they win.
           `
         },
         {
@@ -158,18 +158,18 @@ export default {
           `
         },
         {
-          name: 'Auction House of Colour',
+          name: 'Celebrity Auction House',
           hidden: false,
           prize: 'Mango',
           participantDescription: 'Someone with good finances...',
           description: `
-            Each competitor is given $1000 and must bid for celebrities.
-             woulThere are 3 ways to score points:
+            Each competitor is given $1000 to bid for 16 celebrities.
+            There are 3 ways to score points:
             Each celebrity is worth 2 points each, except for black celebrities which are worth 4 points each.
             Points are awarded to the square of the number of celebrities which are of the same colour.
             For example 3 yellow individuals are an additional 9 points.
-            Colour groups are white, black, and yellow.
-            Every couple of celebrities which have worked together are awarded an additional 10 points.
+            There are white, black, and yellow celebrities.
+            Every couple of celebrities which have worked together are awarded an additional 6 points.
           `
         },
         {

@@ -3,18 +3,15 @@ import Vue from 'vue'
 
 Vue.use(Vuex)
 
-/**
- * The Vuex store
- */
 const store = new Vuex.Store({
   state: {
     teams: [
       {
         name: 'Team Jelly',
         members: [
-          'Patrick Lagasca',
-          'Emily Tse',
-          'Bill Luu'
+          'Mike Thiem'
+          'Adnan Husain'
+          'Deanna Ip'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 1 },
@@ -40,8 +37,9 @@ const store = new Vuex.Store({
       {
         name: 'Team Boxer',
         members: [
-          'Adnan Husain',
-          'Alisa Cheung'
+          'Bill Luu'
+          'Estee Lee'
+          'Tai Lai'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 0 },
@@ -67,9 +65,9 @@ const store = new Vuex.Store({
       {
         name: 'Team Demon',
         members: [
-          'Sarah Lam',
-          'Jane Thiem',
-          'Helen Du'
+          'Henry Tran'
+          'Emily Tse'
+          'Sarah Lam'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 0 },
@@ -95,9 +93,9 @@ const store = new Vuex.Store({
       {
         name: 'Team Ninja',
         members: [
-          'Henry Tran',
-          'Tai Lai',
-          'Ginelle Alontave'
+          'Patrick Lagasca'
+          'Kimberly Oliveros'
+          'Helen Du'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 0 },
@@ -123,9 +121,9 @@ const store = new Vuex.Store({
       {
         name: 'Team Kirito',
         members: [
-          'Deanna Ip',
-          'Estee Lee',
-          'Gordon Cheung'
+          'Justin Fuah'
+          'Jane Thiem'
+          'Alisa Cheung'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 0 },
@@ -151,9 +149,9 @@ const store = new Vuex.Store({
       {
         name: 'Team Asuna',
         members: [
-          'Justin Fuah',
-          'Kimberly Oliveros',
-          'Mike Thiem'
+          'Alston Seto'
+          'Ginelle Alontave'
+          'John Lee'
         ],
         scores: [
           { recipe: 'Cucumber Roll', gained: 0 },
@@ -181,3 +179,128 @@ const store = new Vuex.Store({
 })
 
 export default store
+
+/*
+const store = new Vuex.Store({
+  state: {
+    teams: [
+      {
+        name: 'Team Jelly',
+        members: [
+          'Sarah Lam',
+          'Claire Zhang',
+          'Andy Wu Wu',
+          'Gordo Cheung'
+        ],
+        scores: [
+          { recipe: 'Cucumber Roll', gained: 1 },
+          { recipe: 'Salmon Roll', gained: 2 },
+          { recipe: 'Tuna Roll', gained: 0 },
+          { recipe: 'Crab Roll', gained: 0 },
+          { recipe: 'Salmon Nigiri', gained: 0 },
+          { recipe: 'Tuna Nigiri', gained: 0 },
+          { recipe: 'Shrimp Nigiri', gained: 0 },
+          { recipe: 'Unagi Nigiri', gained: 0 },
+          { recipe: 'Ikura Roll', gained: 0 },
+          { recipe: 'Avocado Roll', gained: 0 },
+          { recipe: 'California Roll', gained: 0 },
+          { recipe: 'Unagi Roll', gained: 0 },
+          { recipe: 'Spicy Salmon Roll', gained: 0 },
+          { recipe: 'Spicy Tuna Roll', gained: 0 },
+          { recipe: 'Mango Roll', gained: 0 },
+          { recipe: 'Rainbow Roll', gained: 0 },
+          { recipe: 'Philadelphia Roll', gained: 0 },
+          { recipe: 'Explosive Roll', gained: 0 }
+        ]
+      },
+      {
+        name: 'Team Boxer',
+        members: [
+          'Jeff Martens',
+          'David Yang',
+          'Lesan Liu'
+        ],
+        scores: [
+          { recipe: 'Cucumber Roll', gained: 0 },
+          { recipe: 'Salmon Roll', gained: 0 },
+          { recipe: 'Tuna Roll', gained: 0 },
+          { recipe: 'Crab Roll', gained: 0 },
+          { recipe: 'Salmon Nigiri', gained: 0 },
+          { recipe: 'Tuna Nigiri', gained: 0 },
+          { recipe: 'Shrimp Nigiri', gained: 0 },
+          { recipe: 'Unagi Nigiri', gained: 0 },
+          { recipe: 'Ikura Roll', gained: 0 },
+          { recipe: 'Avocado Roll', gained: 0 },
+          { recipe: 'California Roll', gained: 0 },
+          { recipe: 'Unagi Roll', gained: 0 },
+          { recipe: 'Spicy Salmon Roll', gained: 0 },
+          { recipe: 'Spicy Tuna Roll', gained: 0 },
+          { recipe: 'Mango Roll', gained: 0 },
+          { recipe: 'Rainbow Roll', gained: 0 },
+          { recipe: 'Philadelphia Roll', gained: 0 },
+          { recipe: 'Explosive Roll', gained: 0 }
+        ]
+      },
+      {
+        name: 'Team Demon',
+        members: [
+          'Benny Liu',
+          'Jacky Chiu',
+          'Daisy Dukes Ao'
+        ],
+        scores: [
+          { recipe: 'Cucumber Roll', gained: 0 },
+          { recipe: 'Salmon Roll', gained: 0 },
+          { recipe: 'Tuna Roll', gained: 0 },
+          { recipe: 'Crab Roll', gained: 0 },
+          { recipe: 'Salmon Nigiri', gained: 0 },
+          { recipe: 'Tuna Nigiri', gained: 0 },
+          { recipe: 'Shrimp Nigiri', gained: 0 },
+          { recipe: 'Unagi Nigiri', gained: 0 },
+          { recipe: 'Ikura Roll', gained: 0 },
+          { recipe: 'Avocado Roll', gained: 0 },
+          { recipe: 'California Roll', gained: 0 },
+          { recipe: 'Unagi Roll', gained: 0 },
+          { recipe: 'Spicy Salmon Roll', gained: 0 },
+          { recipe: 'Spicy Tuna Roll', gained: 0 },
+          { recipe: 'Mango Roll', gained: 0 },
+          { recipe: 'Rainbow Roll', gained: 0 },
+          { recipe: 'Philadelphia Roll', gained: 0 },
+          { recipe: 'Explosive Roll', gained: 0 }
+        ]
+      },
+      {
+        name: 'Team Ninja',
+        members: [
+          'Jack Fang',
+          'Dana Zhao',
+          'Kathy Chan',
+          'Adam Mehina'
+        ],
+        scores: [
+          { recipe: 'Cucumber Roll', gained: 0 },
+          { recipe: 'Salmon Roll', gained: 0 },
+          { recipe: 'Tuna Roll', gained: 0 },
+          { recipe: 'Crab Roll', gained: 0 },
+          { recipe: 'Salmon Nigiri', gained: 0 },
+          { recipe: 'Tuna Nigiri', gained: 0 },
+          { recipe: 'Shrimp Nigiri', gained: 0 },
+          { recipe: 'Unagi Nigiri', gained: 0 },
+          { recipe: 'Ikura Roll', gained: 0 },
+          { recipe: 'Avocado Roll', gained: 0 },
+          { recipe: 'California Roll', gained: 0 },
+          { recipe: 'Unagi Roll', gained: 0 },
+          { recipe: 'Spicy Salmon Roll', gained: 0 },
+          { recipe: 'Spicy Tuna Roll', gained: 0 },
+          { recipe: 'Mango Roll', gained: 0 },
+          { recipe: 'Rainbow Roll', gained: 0 },
+          { recipe: 'Philadelphia Roll', gained: 0 },
+          { recipe: 'Explosive Roll', gained: 0 }
+        ]
+      }
+    ]
+  }
+})
+
+export default store
+*/

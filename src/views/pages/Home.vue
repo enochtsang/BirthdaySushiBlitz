@@ -68,9 +68,13 @@ export default {
         A team may challenge for any amount of ingredients, but the challenge becomes harder the the more ingredients are being challenged for.
       `,
       rules_3: `
-        Enoch and Byron go around to each team and judge the sushi.
-        Every recipe should have at least 4 of its kind.
+        All sushi to be presented must be placed on the designed plate, and in the judging area.
+        Enoch and Byron will judge each team's sushi.
+        Duplicates recipes are not worth more points.
+        Every recipe should have at least 4 rolls/nigiri, you can eat any extra.
         Every roll can be judged as not done (no points), done poorly (half points), or done well (full points).
+        +10 points for best presentation.
+        -10 points for a very messy cooking area.
       `
     }
   },
