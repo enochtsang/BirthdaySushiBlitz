@@ -4,10 +4,17 @@ import Router from 'vue-router'
 import Home from '@/views/pages/Home'
 import Recipes from '@/views/pages/Recipes'
 import Games from '@/views/pages/Games'
-import Judging from '@/views/pages/Judging'
+import Rules from '@/views/pages/Rules'
 
 Vue.use(Router)
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  theme: {
+    primary: '#ff8f00',
+    secondary: '#ffc046',
+    accent: '#c56000',
+    error: '#FF1744'
+  }
+})
 
 export default new Router({
   mode: 'history',
@@ -22,6 +29,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/rules',
+      name: 'Rules',
+      component: Rules
+    },
+    {
       path: '/recipes',
       name: 'Recipes',
       component: Recipes
@@ -30,11 +42,6 @@ export default new Router({
       path: '/games',
       name: 'Games',
       component: Games
-    },
-    {
-      path: '/judging',
-      name: 'Judging',
-      component: Judging
     }
   ]
 })

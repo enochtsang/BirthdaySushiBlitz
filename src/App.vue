@@ -8,14 +8,14 @@
       <v-tab ripple :to="{name:'Home'}" >
         Home
       </v-tab>
+      <v-tab ripple :to="{name:'Rules'}" >
+        Rules
+      </v-tab>
       <v-tab ripple :to="{name:'Recipes'}" >
         Recipes
       </v-tab>
       <v-tab ripple :to="{name:'Games'}" >
         Games
-      </v-tab>
-      <v-tab ripple :to="{name:'Judging'}" >
-        Judging
       </v-tab>
     </v-tabs>
     <router-view class="content"></router-view>

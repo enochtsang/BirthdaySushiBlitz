@@ -8,15 +8,7 @@
     src="/static/dancing_sushi.gif"
     class="dancing_sushi"
   />
-
-  <h1>Sushi Blitz</h1>
-  <p>{{rules_summary}}</p>
-  <h2>Stage 1 - Cooking and Gathering</h2>
-  <p>{{rules_1}}</p>
-  <h2>Stage 2 - Cooking and Challenging</h2>
-  <p>{{rules_2}}</p>
-  <h2>Stage 3 - Judging</h2>
-  <p>{{rules_3}}</p>
+  <p>{{house_rules}}</p>
 
   <h1>Teams</h1>
   <v-flex class="teams-div">
@@ -49,32 +41,10 @@ export default {
         If you need to charge your phone, let us know and we'll hook you up.
         The winners will receive the mystery box and the losers will be subject to punishment!
         `,
-      rules_summary: `
-        There are 3 stages to the game, in the first stage people compete in mini-games for ingredients to make sushi.
-        In the second stage, other teams challenge other teams for leftover ingredients.
-        In the third stage, the sushi that is made is judged and awarded points.
-      `,
-      rules_1: `
-        In the first stage, the games will be announced when they are starting.
-        When a game is announced, you have 1 minute to send a representative to the playing area to compete.
-        Games can have more than one winner, so the odds aren't terrible.
-        A hint to what skills would be good in the game will also be announced, so pick strategically.
-        Be warned, the same person cannot be sent up twice in a row!
-      `,
-      rules_2: `
-        Each team can challenge another team for any unused ingredients they have.
-        A team may challenge any team ONCE.
-        A team cannot be challenged twice in a row.
-        A team may challenge for any amount of ingredients, but the challenge becomes harder the the more ingredients are being challenged for.
-      `,
-      rules_3: `
-        All sushi to be presented must be placed on the designed plate, and in the judging area.
-        Enoch and Byron will judge each team's sushi.
-        Duplicates recipes are not worth more points.
-        Every recipe should have at least 4 rolls/nigiri, you can eat any extra.
-        Every roll can be judged as not done (no points), done poorly (half points), or done well (full points).
-        +10 points for best presentation.
-        -10 points for a very messy cooking area.
+      house_rules: `
+        Feel free to help yourself to the drinks you passed by on the way in.
+        Find your team and claim a cooking station, each cooking station should include a knife, 2 cutting boards, and a bamboo roller.
+        You can find the seaweed, soy sauce, and sushi rice in the ingredients area; you may take as much as you want.
       `
     }
   },
