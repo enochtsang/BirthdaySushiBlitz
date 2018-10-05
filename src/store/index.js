@@ -53,7 +53,7 @@ const store = new Vuex.Store({
         members: [
           'Alston Seto',
           'Ginelle Alontave',
-          'John Lee'
+          'John Wang'
         ]
       }
     ]

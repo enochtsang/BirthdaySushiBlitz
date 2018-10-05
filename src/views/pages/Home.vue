@@ -44,7 +44,7 @@ export default {
       house_rules: `
         Feel free to help yourself to the drinks you passed by on the way in.
         Find your team and claim a cooking station, each cooking station should include a knife, 2 cutting boards, and a bamboo roller.
-        You can find the seaweed, soy sauce, and sushi rice in the ingredients area; you may take as much as you want.
+        You can find the seaweed, soy sauce, and sushi rice in the ingredients area; you may take as much as you need.
       `
     }
   },
