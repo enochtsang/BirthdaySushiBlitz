@@ -27,7 +27,8 @@ const store = new Vuex.Store({
         members: [
           'Henry Tran',
           'Emily Tse',
-          'Sarah Lam'
+          'Sarah Lam',
+          'Bryson Ding'
         ]
       },
       {
@@ -35,7 +36,8 @@ const store = new Vuex.Store({
         members: [
           'Patrick Lagasca',
           'Kimberly Oliveros',
-          'Helen Du'
+          'Helen Du',
+          'Gordon Cheung'
         ]
       },
       {
@@ -60,46 +62,43 @@ const store = new Vuex.Store({
 
 export default store
 
-/*
-const store = new Vuex.Store({
-  state: {
-    teams: [
-      {
-        name: 'Team Jelly',
-        members: [
-          'Sarah Lam',
-          'Claire Zhang',
-          'Andy Wu Wu',
-          'Benny Liu'
-        ]
-      },
-      {
-        name: 'Team Boxer',
-        members: [
-          'Jeff Martens',
-          'David Yang',
-          'Lesan Liu'
-        ]
-      },
-      {
-        name: 'Team Demon',
-        members: [
-          'Kathy Chan',
-          'Jacky Chiu',
-          'Gordo Cheung'
-        ]
-      },
-      {
-        name: 'Team Ninja',
-        members: [
-          'Jack Fang',
-          'Dana Zhao',
-          'Adam Mehina'
-        ]
-      }
-    ]
-  }
-})
+// const store = new Vuex.Store({
+//   state: {
+//     teams: [
+//       {
+//         name: 'Team Jelly',
+//         members: [
+//           'Sarah Lam',
+//           'Claire Zhang',
+//           'Andy Wu Wu'
+//         ]
+//       },
+//       {
+//         name: 'Team Boxer',
+//         members: [
+//           'Jeff Martens',
+//           'David Yang',
+//           'Lesan Liu'
+//         ]
+//       },
+//       {
+//         name: 'Team Demon',
+//         members: [
+//           'Kathy Chan',
+//           'Jacky Chiu',
+//           'Benny Liu'
+//         ]
+//       },
+//       {
+//         name: 'Team Ninja',
+//         members: [
+//           'Jack Fang',
+//           'Dana Zhao',
+//           'Adam Mehina'
+//         ]
+//       }
+//     ]
+//   }
+// })
 
-export default store
-*/
+// export default store
