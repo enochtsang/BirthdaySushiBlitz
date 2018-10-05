@@ -15,7 +15,7 @@ const store = new Vuex.Store({
         ]
       },
       {
-        name: 'Team Boxer',
+        name: 'Team B0x3r',
         members: [
           'Bill Luu',
           'Estee Lee',
@@ -74,7 +74,7 @@ export default store
 //         ]
 //       },
 //       {
-//         name: 'Team Boxer',
+//         name: 'Team B0x3r',
 //         members: [
 //           'Jeff Martens',
 //           'David Yang',
