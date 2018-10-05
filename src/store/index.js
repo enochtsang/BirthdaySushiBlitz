@@ -70,7 +70,8 @@ export default store
 //         members: [
 //           'Sarah Lam',
 //           'Claire Zhang',
-//           'Andy Wu Wu'
+//           'Andy Wu Wu',
+//           'Jared Mok'
 //         ]
 //       },
 //       {
