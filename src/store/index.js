@@ -37,13 +37,12 @@ const store = new Vuex.Store({
           'Patrick Lagasca',
           'Kimberly Oliveros',
           'Helen Du',
-          'Gordon Cheung'
         ]
       },
       {
         name: 'Team Kirito',
         members: [
-          'Justin Fuah',
+          'Gordon Cheung',
           'Jane Thiem',
           'Alisa Cheung'
         ]
